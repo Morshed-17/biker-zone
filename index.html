@@ -24,6 +24,7 @@
                         clifford: '#da373d',
                         'bike-primary': '#E76F51',
                         'bike-primary-bg': 'rgba(231, 111, 81, 0.10)',
+                        'default-black': '#0B0D17',
 
                     }
                 }
@@ -279,9 +280,9 @@
         <section class="my-32">
             <h3 class="text-5xl font-semibold text-center mb-12">Frequently Asked <span class="text-bike-primary">Questions</span></h3>
             <!-- faq row -->
-            <div class="hero min-h-screen ">
+            <div class="hero ">
                 <div class="hero-content flex-col gap-20 lg:flex-row">
-                  <img class="w-3/4 md:w-full" src="/images/others/faq.png" class="max-w-sm rounded-lg" />
+                  <img class="w-3/4 lg:w-full" src="/images/others/faq.png" class="max-w-sm rounded-lg" />
                   <div>
                     <div class="collapse collapse-arrow border rounded-md">
                         <input type="radio" name="my-accordion-2" checked="checked" /> 
@@ -326,9 +327,33 @@
               </div>
         </section>
     </main>
-    <footer>
-
-    </footer>
+    <!-- footer section -->
+    <section class="bg-default-black">
+        <footer class="footer pt-14 pb-20 text-base-content container mx-auto">
+            <div class="text-white">
+                <div class="flex gap-6">
+                    <a class="link link-hover">Download Now</a> 
+                    <a class="link link-hover">License</a> 
+                  </div> 
+                  <div class="flex gap-6 pt-3 pb-6 ">
+                    <a class="link link-hover">About us</a> 
+                    <a class="link link-hover">Contact</a> 
+                    <a class="link link-hover">Jobs</a> 
+                    <a class="link link-hover">Press kit</a>
+                    <a class="link link-hover">Privecy Policy</a>
+                  </div>
+                  <p>© 2020 bike. All rights reserved</p> 
+            </div>
+            <div class="lg:justify-self-end">
+              <span class="text-white text-xl font-medium">Get the App</span> 
+              <div class="grid grid-cols-1 gap-4">
+                <a><img class="w-36" src="images/others/android.png" alt=""></a>
+                <a><img class="w-36" src="images/others/ios.png" alt=""></a>
+                <a></a>
+              </div>
+            </div>
+          </footer>
+    </section>
 </body>
 
 </html>
